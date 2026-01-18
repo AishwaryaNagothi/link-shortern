@@ -6,9 +6,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "shortid": "^2.2.16",
-    "qrcode": "^1.5.4"
+    "express": "^4.18.2",
+    "qrcode": "^1.5.1",
+    "shortid": "^2.2.16"
   }
 }

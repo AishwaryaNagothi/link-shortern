@@ -10,9 +10,11 @@
     <input id="urlInput" placeholder="Enter URL">
     <button onclick="shorten()">Shorten</button>
     <p id="result"></p>
-    <img id="qrImage">
-    <button id="downloadBtn" onclick="downloadQR()">⬇️ Download QR</button>
+    <img id="qrImage" alt="QR Code" style="display:none; margin-top:10px;">
+    <button id="downloadBtn" onclick="downloadQR()" disabled>⬇️ Download QR</button>
   </div>
-<script src="script.js"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
